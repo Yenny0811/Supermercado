@@ -116,12 +116,15 @@ h1,h2,h3,h4.h5,h6{
     align-items: center;
 }
 .con-productos{
-    width: 100%;
+    width:75%;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .con-productos .tarjeta-pro{
     width: 400px;
-    height: 500px;
+    height: auto;
     background-color: azure;
     border-radius: 10px;
     border: 1px solid black;
@@ -129,7 +132,7 @@ h1,h2,h3,h4.h5,h6{
 
 .tarjeta-pro img{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 .tarjeta-pro .contenido{
     width: 100%;
